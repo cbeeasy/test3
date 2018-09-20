@@ -21,6 +21,15 @@
     "consistent-return": [1],
     "jsx-a11y/click-events-have-key-events": [0],
     "jsx-a11y/no-static-element-interactions": [0],
+    "jsx-a11y/label-has-associated-control": [
+      2,
+      {
+        "labelComponents": ["label"],
+        "labelAttributes": ["htmlFor"],
+        "controlComponents": ["input"]
+      }
+    ],
+    "jsx-a11y/label-has-for": [0],
     "flowtype/boolean-style": [2, "boolean"],
     "flowtype/define-flow-type": 1,
     "flowtype/delimiter-dangle": 0,
